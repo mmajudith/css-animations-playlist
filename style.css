@@ -1,0 +1,30 @@
+body{
+  background: skyblue;
+  text-align: center;
+}
+.wrapper{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  
+}
+
+/* img{
+  transform: rotateZ() translateY() scale(2);
+} */
+
+.circle{
+  width: 100px;
+  padding: 50px 0;
+  line-height: 0;
+  margin: 60px auto;
+  border-radius: 50px;
+  background: tomato;
+  cursor: pointer;
+  transition: transform 1s 1s ease;
+}
+
+.circle:hover{
+  background: brown;
+  transform: rotate(360deg);
+}
